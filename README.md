@@ -77,7 +77,7 @@ Here is its layout:
     │   │   ├── directives
     │   │   ├── filters
     │   │   └── services
-    │   ├── page1
+    │   ├── module1
     │   │   ├── controllers
     │   │   │   ├── FirstCtrl.js
     │   │   │   └── SecondCtrl.js
@@ -89,7 +89,7 @@ Here is its layout:
     │   │   └── services
     │   │       ├── service1.js
     │   │       └── service2.js
-    │   └── page2
+    │   └── module2
     │       ├── controllers
     │       │   └── ThirdCtrl.js
     │       ├── directives
@@ -129,8 +129,6 @@ This approach can be combined with both directory structures above.
 * The `app.js` file contains routes definition, configuration and/or manual bootstrap (if required).
 * Each JavaScript file should only hold a single component. The file should be named with the component's name.
 * Use Angular project structure template like [Yeoman](http://yeoman.io), [ng-boilerplate](http://joshdmiller.github.io/ng-boilerplate/#/home).
-
-I prefer the first structure because it makes the common components easier to find.
 
 Conventions about components naming can be found in each component section.
 
